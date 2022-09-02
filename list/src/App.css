@@ -39,3 +39,7 @@
 p{
   width:200px
 }
+select{
+  height: 120px;
+  margin-bottom: 50px;
+}

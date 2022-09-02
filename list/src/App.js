@@ -3,6 +3,7 @@ import './BaseUI.css';
 import './App.css';
 import Mainfile from './components/Mainfile.js'
 import Second from './components/Second.js'
+import Third from './components/Third.js'
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,8 @@ function App() {
       <Mainfile />
       <h3>Q2. Make a Products Table which should work as:  1. Fill form and submit values. 2. Product should add in product list and display in list below add product form</h3>
       <Second />
+      <h3>Q3. Move items between two groups as shown in attachment.</h3>
+      <Third />
       </header>
     </div>
   );
