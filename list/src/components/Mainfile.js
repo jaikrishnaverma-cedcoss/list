@@ -8,9 +8,12 @@ class Mainfle extends Component {
     render() { 
         return (
              <> 
+             <h3>List of fruits</h3>
+             <ul>
                 {
-                    this.fruits.map((x)=><p>{x}</p>)
+                    this.fruits.map((x)=><li>{x}</li>)
                 }
+                </ul>
              </>);
     }
 }
