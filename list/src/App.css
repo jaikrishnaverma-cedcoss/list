@@ -43,3 +43,22 @@ select{
   height: 120px;
   margin-bottom: 50px;
 }
+.yy ul{
+  color:black;
+  list-style-type: none; 
+  margin-left: 6px;
+}
+
+.yy ul,.yy li
+{
+  width: 94%;
+  text-align: left;
+}
+.yy li{
+  padding: 3px 11px ;
+  border:1px solid gray;
+  margin-top:1px
+}
+.yy{
+  margin-bottom: 50px;
+}
